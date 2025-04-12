@@ -43,3 +43,4 @@ class GenotypeCalculator:
 
 if __name__ == "__main__":
     GenotypeCalculator.main()
+
