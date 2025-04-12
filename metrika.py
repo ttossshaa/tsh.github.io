@@ -21,9 +21,8 @@ class YandexMetrikaAPI:
         else:
             raise Exception(f"Error: {response.status_code}, {response.text}")
 
-# Использование
-token = y0__xDUy6v_BhiC-jYgi6a75xJW4hmIcBNWtS76ECSaNM1E4u2iyg
-counter_id = 100829299
+token = "y0__xDUy6v_BhiC-jYgi6a75xJW4hmIcBNWtS76ECSaNM1E4u2iyg"
+counter_id = "100829299"
 metrics = "ym:s:visits,ym:s:pageviews,ym:s:users"
 
 api = YandexMetrikaAPI(token)
