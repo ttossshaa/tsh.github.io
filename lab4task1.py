@@ -1,7 +1,7 @@
 from Bio import SeqIO
 
 def calculate_gc_content(sequence):
-    gc_count = sequence.count('G') + sequence.count('C') #Подсчитывет количество гуанинов (G) и цитозинов (C) в последовательности 
+    gc_count = sequence.count('G') + sequence.count('C') #Подсчитывает количество гуанинов (G) и цитозинов (C) в последовательности 
     return gc_count / len(sequence)
 
 def sort_records_by_gc(gb_file):
