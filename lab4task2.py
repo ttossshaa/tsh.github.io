@@ -3,7 +3,7 @@ from Bio import SeqIO
 def translate_cds(record, feature):
     if feature.type == "CDS":
         start = feature.location.start #Получает начальную позицию CDS из объекта feature.location и сохраняет ее в переменной start
-        end = feature.location.end #Получает конечную позицию CDS из объекта feature.location и сохраняет ее в переменной end
+        end = feature.location.end #Получает конечную позицию CDS из оъекта feature.location и сохраняет ее в переменной end
         strand = feature.location.strand #информация о направлении цепи ДНК, Значение 1 означает прямую цепь, -1 - обратную
         
         if strand == 1:
